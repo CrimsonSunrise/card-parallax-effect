@@ -85,9 +85,9 @@ function App(): JSX.Element {
 
 	const cards: CardProps[] = Array.from({ length: 5 }, (_, index) => ({
 		title: `Card ${index + 1}`,
-		bg: `/src/assets/arts/${index + 1}_bg.png`,
-		img: `/src/assets/arts/${index + 1}.png`,
-		thumb: `/src/assets/arts/${index + 1}_thumb.png`,
+		bg: `/assets/arts/${index + 1}_bg.png`,
+		img: `/assets/arts/${index + 1}.png`,
+		thumb: `/assets/arts/${index + 1}_thumb.png`,
 		selectImage: selectImage,
 	}));
 
