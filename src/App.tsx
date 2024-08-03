@@ -55,9 +55,9 @@ function App(): JSX.Element {
 		document.querySelectorAll(".card")[0].classList.add("active");
 		setSelectedCard({
 			title: "Card 1",
-			bg: "/src/assets/arts/1_bg.png",
-			img: "/src/assets/arts/1.png",
-			thumb: "/src/assets/arts/1_thumb.png",
+			bg: "/assets/arts/1_bg.png",
+			img: "/assets/arts/1.png",
+			thumb: "/assets/arts/1_thumb.png",
 			selectImage: selectImage,
 		});
 	}, []);
